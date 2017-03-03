@@ -1,0 +1,220 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 20
+            [file] => controllers/EtiquetadasController.php
+            [message] => Method behaviors has no parent to inherit from in app\controllers\EtiquetadasController.
+        )
+
+    [1] => Array
+        (
+            [line] => 20
+            [file] => controllers/EtiquetasController.php
+            [message] => Method behaviors has no parent to inherit from in app\controllers\EtiquetasController.
+        )
+
+    [2] => Array
+        (
+            [line] => 23
+            [file] => controllers/PeliculasController.php
+            [message] => Method behaviors has no parent to inherit from in app\controllers\PeliculasController.
+        )
+
+    [3] => Array
+        (
+            [line] => 17
+            [file] => controllers/SiteController.php
+            [message] => Method behaviors has no parent to inherit from in app\controllers\SiteController.
+        )
+
+    [4] => Array
+        (
+            [line] => 43
+            [file] => controllers/SiteController.php
+            [message] => Method actions has no parent to inherit from in app\controllers\SiteController.
+        )
+
+    [5] => Array
+        (
+            [line] => 21
+            [file] => models/Etiqueta.php
+            [message] => Method tableName has no parent to inherit from in app\models\Etiqueta.
+        )
+
+    [6] => Array
+        (
+            [line] => 29
+            [file] => models/Etiqueta.php
+            [message] => Method rules has no parent to inherit from in app\models\Etiqueta.
+        )
+
+    [7] => Array
+        (
+            [line] => 41
+            [file] => models/Etiqueta.php
+            [message] => Method attributeLabels has no parent to inherit from in app\models\Etiqueta.
+        )
+
+    [8] => Array
+        (
+            [line] => 21
+            [file] => models/Etiqueta.php
+            [message] => Method tableName has no parent to inherit from in app\models\Etiqueta.
+        )
+
+    [9] => Array
+        (
+            [line] => 29
+            [file] => models/Etiqueta.php
+            [message] => Method rules has no parent to inherit from in app\models\Etiqueta.
+        )
+
+    [10] => Array
+        (
+            [line] => 41
+            [file] => models/Etiqueta.php
+            [message] => Method attributeLabels has no parent to inherit from in app\models\Etiqueta.
+        )
+
+    [11] => Array
+        (
+            [line] => 29
+            [file] => models/EtiquetaSearch.php
+            [message] => Method scenarios has no parent to inherit from in app\models\EtiquetaSearch.
+        )
+
+    [12] => Array
+        (
+            [line] => 21
+            [file] => models/Etiquetada.php
+            [message] => Method tableName has no parent to inherit from in app\models\Etiquetada.
+        )
+
+    [13] => Array
+        (
+            [line] => 29
+            [file] => models/Etiquetada.php
+            [message] => Method rules has no parent to inherit from in app\models\Etiquetada.
+        )
+
+    [14] => Array
+        (
+            [line] => 42
+            [file] => models/Etiquetada.php
+            [message] => Method attributeLabels has no parent to inherit from in app\models\Etiquetada.
+        )
+
+    [15] => Array
+        (
+            [line] => 21
+            [file] => models/Etiquetada.php
+            [message] => Method tableName has no parent to inherit from in app\models\Etiquetada.
+        )
+
+    [16] => Array
+        (
+            [line] => 29
+            [file] => models/Etiquetada.php
+            [message] => Method rules has no parent to inherit from in app\models\Etiquetada.
+        )
+
+    [17] => Array
+        (
+            [line] => 42
+            [file] => models/Etiquetada.php
+            [message] => Method attributeLabels has no parent to inherit from in app\models\Etiquetada.
+        )
+
+    [18] => Array
+        (
+            [line] => 28
+            [file] => models/EtiquetadaSearch.php
+            [message] => Method scenarios has no parent to inherit from in app\models\EtiquetadaSearch.
+        )
+
+    [19] => Array
+        (
+            [line] => 22
+            [file] => models/Pelicula.php
+            [message] => Method tableName has no parent to inherit from in app\models\Pelicula.
+        )
+
+    [20] => Array
+        (
+            [line] => 30
+            [file] => models/Pelicula.php
+            [message] => Method rules has no parent to inherit from in app\models\Pelicula.
+        )
+
+    [21] => Array
+        (
+            [line] => 42
+            [file] => models/Pelicula.php
+            [message] => Method attributeLabels has no parent to inherit from in app\models\Pelicula.
+        )
+
+    [22] => Array
+        (
+            [line] => 22
+            [file] => models/Pelicula.php
+            [message] => Method tableName has no parent to inherit from in app\models\Pelicula.
+        )
+
+    [23] => Array
+        (
+            [line] => 30
+            [file] => models/Pelicula.php
+            [message] => Method rules has no parent to inherit from in app\models\Pelicula.
+        )
+
+    [24] => Array
+        (
+            [line] => 42
+            [file] => models/Pelicula.php
+            [message] => Method attributeLabels has no parent to inherit from in app\models\Pelicula.
+        )
+
+    [25] => Array
+        (
+            [line] => 29
+            [file] => models/PeliculaSearch.php
+            [message] => Method scenarios has no parent to inherit from in app\models\PeliculaSearch.
+        )
+
+    [26] => Array
+        (
+            [line] => 34
+            [file] => models/User.php
+            [message] => Method findIdentity has no parent to inherit from in app\models\User.
+        )
+
+    [27] => Array
+        (
+            [line] => 42
+            [file] => models/User.php
+            [message] => Method findIdentityByAccessToken has no parent to inherit from in app\models\User.
+        )
+
+    [28] => Array
+        (
+            [line] => 73
+            [file] => models/User.php
+            [message] => Method getId has no parent to inherit from in app\models\User.
+        )
+
+    [29] => Array
+        (
+            [line] => 81
+            [file] => models/User.php
+            [message] => Method getAuthKey has no parent to inherit from in app\models\User.
+        )
+
+    [30] => Array
+        (
+            [line] => 89
+            [file] => models/User.php
+            [message] => Method validateAuthKey has no parent to inherit from in app\models\User.
+        )
+
+)

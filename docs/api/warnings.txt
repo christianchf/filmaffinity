@@ -1,0 +1,318 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 18
+            [file] => assets/AppAsset.php
+            [message] => No docblock for element '$basePath'
+        )
+
+    [1] => Array
+        (
+            [line] => 18
+            [file] => assets/AppAsset.php
+            [message] => No short description for element '$basePath'
+        )
+
+    [2] => Array
+        (
+            [line] => 19
+            [file] => assets/AppAsset.php
+            [message] => No docblock for element '$baseUrl'
+        )
+
+    [3] => Array
+        (
+            [line] => 19
+            [file] => assets/AppAsset.php
+            [message] => No short description for element '$baseUrl'
+        )
+
+    [4] => Array
+        (
+            [line] => 20
+            [file] => assets/AppAsset.php
+            [message] => No docblock for element '$css'
+        )
+
+    [5] => Array
+        (
+            [line] => 20
+            [file] => assets/AppAsset.php
+            [message] => No short description for element '$css'
+        )
+
+    [6] => Array
+        (
+            [line] => 23
+            [file] => assets/AppAsset.php
+            [message] => No docblock for element '$js'
+        )
+
+    [7] => Array
+        (
+            [line] => 23
+            [file] => assets/AppAsset.php
+            [message] => No short description for element '$js'
+        )
+
+    [8] => Array
+        (
+            [line] => 25
+            [file] => assets/AppAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [9] => Array
+        (
+            [line] => 25
+            [file] => assets/AppAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [10] => Array
+        (
+            [line] => 112
+            [file] => controllers/PeliculasController.php
+            [message] => No docblock for element 'actionBuscar'
+        )
+
+    [11] => Array
+        (
+            [line] => 121
+            [file] => controllers/PeliculasController.php
+            [message] => No docblock for element 'actionPeliculas'
+        )
+
+    [12] => Array
+        (
+            [line] => 12
+            [file] => controllers/SiteController.php
+            [message] => No docblock for element 'app\controllers\SiteController'
+        )
+
+    [13] => Array
+        (
+            [line] => 13
+            [file] => models/ContactForm.php
+            [message] => No docblock for element '$name'
+        )
+
+    [14] => Array
+        (
+            [line] => 13
+            [file] => models/ContactForm.php
+            [message] => No short description for element '$name'
+        )
+
+    [15] => Array
+        (
+            [line] => 14
+            [file] => models/ContactForm.php
+            [message] => No docblock for element '$email'
+        )
+
+    [16] => Array
+        (
+            [line] => 14
+            [file] => models/ContactForm.php
+            [message] => No short description for element '$email'
+        )
+
+    [17] => Array
+        (
+            [line] => 15
+            [file] => models/ContactForm.php
+            [message] => No docblock for element '$subject'
+        )
+
+    [18] => Array
+        (
+            [line] => 15
+            [file] => models/ContactForm.php
+            [message] => No short description for element '$subject'
+        )
+
+    [19] => Array
+        (
+            [line] => 16
+            [file] => models/ContactForm.php
+            [message] => No docblock for element '$body'
+        )
+
+    [20] => Array
+        (
+            [line] => 16
+            [file] => models/ContactForm.php
+            [message] => No short description for element '$body'
+        )
+
+    [21] => Array
+        (
+            [line] => 17
+            [file] => models/ContactForm.php
+            [message] => No docblock for element '$verifyCode'
+        )
+
+    [22] => Array
+        (
+            [line] => 17
+            [file] => models/ContactForm.php
+            [message] => No short description for element '$verifyCode'
+        )
+
+    [23] => Array
+        (
+            [line] => 16
+            [file] => models/LoginForm.php
+            [message] => No docblock for element '$username'
+        )
+
+    [24] => Array
+        (
+            [line] => 16
+            [file] => models/LoginForm.php
+            [message] => No short description for element '$username'
+        )
+
+    [25] => Array
+        (
+            [line] => 17
+            [file] => models/LoginForm.php
+            [message] => No docblock for element '$password'
+        )
+
+    [26] => Array
+        (
+            [line] => 17
+            [file] => models/LoginForm.php
+            [message] => No short description for element '$password'
+        )
+
+    [27] => Array
+        (
+            [line] => 18
+            [file] => models/LoginForm.php
+            [message] => No docblock for element '$rememberMe'
+        )
+
+    [28] => Array
+        (
+            [line] => 18
+            [file] => models/LoginForm.php
+            [message] => No short description for element '$rememberMe'
+        )
+
+    [29] => Array
+        (
+            [line] => 4
+            [file] => models/PeliculaForm.php
+            [message] => No docblock for element 'app\models\PeliculaForm'
+        )
+
+    [30] => Array
+        (
+            [line] => 6
+            [file] => models/PeliculaForm.php
+            [message] => No docblock for element '$titulo'
+        )
+
+    [31] => Array
+        (
+            [line] => 6
+            [file] => models/PeliculaForm.php
+            [message] => No short description for element '$titulo'
+        )
+
+    [32] => Array
+        (
+            [line] => 8
+            [file] => models/PeliculaForm.php
+            [message] => No docblock for element 'rules'
+        )
+
+    [33] => Array
+        (
+            [line] => 25
+            [file] => models/PeliculaForm.php
+            [message] => No docblock for element 'attributeLabels'
+        )
+
+    [34] => Array
+        (
+            [line] => 5
+            [file] => models/User.php
+            [message] => No docblock for element 'app\models\User'
+        )
+
+    [35] => Array
+        (
+            [line] => 7
+            [file] => models/User.php
+            [message] => No docblock for element '$id'
+        )
+
+    [36] => Array
+        (
+            [line] => 7
+            [file] => models/User.php
+            [message] => No short description for element '$id'
+        )
+
+    [37] => Array
+        (
+            [line] => 8
+            [file] => models/User.php
+            [message] => No docblock for element '$username'
+        )
+
+    [38] => Array
+        (
+            [line] => 8
+            [file] => models/User.php
+            [message] => No short description for element '$username'
+        )
+
+    [39] => Array
+        (
+            [line] => 9
+            [file] => models/User.php
+            [message] => No docblock for element '$password'
+        )
+
+    [40] => Array
+        (
+            [line] => 9
+            [file] => models/User.php
+            [message] => No short description for element '$password'
+        )
+
+    [41] => Array
+        (
+            [line] => 10
+            [file] => models/User.php
+            [message] => No docblock for element '$authKey'
+        )
+
+    [42] => Array
+        (
+            [line] => 10
+            [file] => models/User.php
+            [message] => No short description for element '$authKey'
+        )
+
+    [43] => Array
+        (
+            [line] => 11
+            [file] => models/User.php
+            [message] => No docblock for element '$accessToken'
+        )
+
+    [44] => Array
+        (
+            [line] => 11
+            [file] => models/User.php
+            [message] => No short description for element '$accessToken'
+        )
+
+)
