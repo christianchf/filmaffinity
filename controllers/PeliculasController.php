@@ -120,19 +120,13 @@ class PeliculasController extends Controller
 
     public function actionPeliculas($q)
     {
-        return GridView::widget([
-            'dataProvider' => new ActiveDataProvider([
-                'query' => Pelicula::find()->where(['ilike', 'titulo', $q]),
-                'pagination' => false,
-                'sort' => false,
-            ]),
-            'columns' => [
-                'titulo',
-                // 'sinopsis',
-            ],
-            'tableOptions' => [
-                'class' => 'table table-bordered table-hover',
-            ],
+        $dataProvider = new ActiveDataProvider([
+            'query' => Pelicula::find()->where(['ilike', 'titulo', $q]),
+            'pagination' => false,
+            'sort' => false,
+        ]);
+        return $this->renderAjax('_peliculas', [
+            'dataProvider' => $dataProvider,
         ]);
     }
 

@@ -10,31 +10,32 @@ use yii\web\View;
 $this->title = 'Buscador de peliculas';
 $this->params['breadcrumbs'][] = $this->title;
 $url = Url::to(['peliculas/peliculas']);
-$urlActual = Url::to('');
+$urlActual = Url::to(['peliculas/buscar']);
 $js = <<<EOT
+    var delay = (function() {
+        var timer = 0;
+        return function(callback, ms){
+            clearTimeout (timer);
+            timer = setTimeout(callback, ms);
+        };
+    })();
     $('#peliculaform-titulo').keyup(function() {
-        var q = $('#peliculaform-titulo').val();
-        if (q == '') {
-            $('#peliculas').html('');
-        }
-        $.ajax({
-            method: 'GET',
-            url: '$url',
-            data: {
-                q: q
-            },
-            success: function (data, status, event) {
-                $('#peliculas').html(data);
-                // $('#peliculas tr').click(function (event) {
-                //     var target = event.currentTarget;
-                //     if ($(target).children().length >= 1) {
-                //         var obj = $(target).children().first();
-                //         titulo = $(obj[0]).text();
-                //         window.location.assign('$urlActual' + '?titulo=' + titulo);
-                //     }
-                // });
+        delay(function() {
+            var q = $('#peliculaform-titulo').val();
+            if (q == '') {
+                $('#peliculas').html('');
             }
-        });
+            $.ajax({
+                method: 'GET',
+                url: '$url',
+                data: {
+                    q: q
+                },
+                success: function (data, status, event) {
+                    $('#peliculas').html(data);
+                }
+            });
+        }, 500);
     });
 EOT;
 $this->registerJs($js);
